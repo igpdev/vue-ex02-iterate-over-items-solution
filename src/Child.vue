@@ -4,9 +4,10 @@
     <span v-if="loading">fetching users...</span>
     <br></br>
     <span v-if="users">
-    <!-- ANSWER -->
-    <li
-    >Got user</li>
+      <li v-for="user in users">
+      <!-- Instruction: Add below the required code to display the username -->
+        
+      </li>    
     </span>
   </div>
 </template>
